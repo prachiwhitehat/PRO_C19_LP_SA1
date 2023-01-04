@@ -27,4 +27,15 @@ function draw() {
   if(tower.y > 400){
       tower.y = 300
     }
+  if(gameState == "play"){
+    
+    drawSprites();
+  }
+  if(gameState == "end"){
+    
+  }
+}
+
+function spawnDoors(){
+  
 }
